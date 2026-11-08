@@ -1,9 +1,11 @@
 ## Hi, I'm Ege
 
-I study **AI and Data Engineering at Ege University** in İzmir. I like machine learning on messy, real-world sensor data, and lately that means water: spotting leaks and abnormal consumption early, before they turn into lost water and big bills.
+I study **AI and Data Engineering at Ege University** in İzmir. I build systems that notice when something unusual happens: leaks in a water network, a sudden spike in what a country is reading, a new paper in a fast-moving field.
 
-### What I'm working on
+### Projects
 
+- **[Merak Radarı](https://github.com/NyksNightBender/trend-radar)** · [live site](https://nyksnightbender.github.io/trend-radar/) · What did Türkiye suddenly look up yesterday? Every morning it scans the 1,000 most-read Turkish Wikipedia pages, compares each with its own normal traffic using a robust z-score, filters out automated traffic (desktop share and lockstep detection), and publishes the day's real spikes. Python, uv, GitHub Actions, GitHub Pages.
+- **[Paper Radar](https://github.com/NyksNightBender/paper-radar)** · [live site](https://nyksnightbender.github.io/paper-radar/) · A reading list that builds itself: new arXiv papers on anomaly, leak and fault detection, ranked with sentence embeddings (BGE-small via fastembed) by how close they are to my research question. Daily and weekly digests.
 - **Early detection of abnormal water consumption** · TÜBİTAK 2209-A undergraduate research project. We compare a robust z-score threshold, Isolation Forest and Local Outlier Factor on building-level water meters (BDG2) and on a distribution network with labelled leaks (BattLeDIM), using precision, recall, F1 and detection delay. Python, pandas, scikit-learn, Streamlit. *Repository is private while the project is in progress.*
 - **[learning-log](https://github.com/NyksNightBender/learning-log)** · One small thing I learned each day, from calculus to ML, plus reference notes I keep for exams.
 
