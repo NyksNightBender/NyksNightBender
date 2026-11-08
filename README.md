@@ -5,16 +5,7 @@ I study **AI and Data Engineering at Ege University** in İzmir. I like machine 
 ### What I'm working on
 
 - **Early detection of abnormal water consumption** · TÜBİTAK 2209-A undergraduate research project. We compare a robust z-score threshold, Isolation Forest and Local Outlier Factor on building-level water meters (BDG2) and on a distribution network with labelled leaks (BattLeDIM), using precision, recall, F1 and detection delay. Python, pandas, scikit-learn, Streamlit. *Repository is private while the project is in progress.*
-- **[izmir-water-watch](https://github.com/NyksNightBender/izmir-water-watch)** · A data pipeline that runs every morning on GitHub Actions. It collects İzmir's dam levels, water production and weather into tidy CSVs, flags unusual days with the same robust z-score baseline, and redraws its own charts. TypeScript, no runtime dependencies, tested.
 - **[learning-log](https://github.com/NyksNightBender/learning-log)** · One small thing I learned each day, from calculus to ML, plus reference notes I keep for exams.
-
-### Live from izmir-water-watch
-
-<a href="https://github.com/NyksNightBender/izmir-water-watch">
-  <img src="https://raw.githubusercontent.com/NyksNightBender/izmir-water-watch/main/charts/weather.svg" alt="Monthly rain and evaporation in İzmir, updated daily" width="100%">
-</a>
-
-Today's dam levels and the rest of the data are in the [repository README](https://github.com/NyksNightBender/izmir-water-watch#latest).
 
 ### Tools I use
 
